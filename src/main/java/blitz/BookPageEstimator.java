@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 /**
  * Exercise 4 – Book-Page Estimator

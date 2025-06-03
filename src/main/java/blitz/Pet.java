@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 public class Pet {
     private final String name, type;

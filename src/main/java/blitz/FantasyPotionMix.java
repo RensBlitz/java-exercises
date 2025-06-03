@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 /**
  * Exercise 7 – Fantasy-Potion Mix

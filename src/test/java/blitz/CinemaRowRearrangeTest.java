@@ -1,8 +1,9 @@
-package java.nl.blitz;
+package blitz;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CinemaRowRearrangeTest {

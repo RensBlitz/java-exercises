@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 public class SpeedUnitSwitcher {
     public static double kmhToMps(double kmh) {

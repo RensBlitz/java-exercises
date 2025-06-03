@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 public class VatCalculator {
     public static double addVat(double net, double ratePercent) {

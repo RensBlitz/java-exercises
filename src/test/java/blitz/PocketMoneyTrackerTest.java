@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 import org.junit.jupiter.api.Test;
 

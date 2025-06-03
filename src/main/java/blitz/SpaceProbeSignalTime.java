@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 /**
  * Exercise 6 – Space Probe Signal-Time

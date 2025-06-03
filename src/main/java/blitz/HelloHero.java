@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 public class HelloHero {
     public static String greet(String name) {

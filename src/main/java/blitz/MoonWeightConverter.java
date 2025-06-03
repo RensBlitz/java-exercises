@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 /**
  * Exercise 3 – Moon-Weight Converter

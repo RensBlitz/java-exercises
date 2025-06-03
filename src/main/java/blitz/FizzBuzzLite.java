@@ -1,4 +1,4 @@
-package java.nl.blitz;
+package blitz;
 
 import java.util.List;
 

@@ -1,9 +1,10 @@
-package java.nl.blitz;
+package blitz;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class VowelCounterTest {
     @Test
