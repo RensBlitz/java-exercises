@@ -2,7 +2,7 @@ package blitz;
 
 public class GradeAverage {
     /**
-     * Returns average score or 1 for empty input.
+     * Returns average score or -1 for empty input.
      */
     public static double average(int[] scores) {
         // TODO
