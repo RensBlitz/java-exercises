@@ -188,7 +188,35 @@ Definieer een klasse met `@RestController` en gebruik `@GetMapping` en `@PostMap
 | `@Service` | Markeert de service-laag-component. |
 | `@Component` | Markeert een generieke Spring-bean (optioneel voor dit project). |
 
-## 6. Opstarten van de applicatie
+## 6. Project setup in IntelliJ IDEA
+
+### Nieuw project aanmaken
+1. Open IntelliJ IDEA
+2. Klik op "New Project" of "File" → "New" → "Project"
+3. Selecteer "Spring Initializr" uit de lijst aan de linkerkant
+4. Configureer je project:
+   - **Name**: Geef je project een naam (bijv. "netflix-backend")
+   - **Build system**: Selecteer **Maven** of **Gradle** (Maven wordt aanbevolen voor beginners)
+   - **Language**: Selecteer **Java**
+   - **Java version**: Selecteer **Java 21**
+   - **Package name**: Laat de standaard naam staan of pas aan naar wens
+5. Klik op "Next"
+
+### Dependencies selecteren
+In het volgende scherm voeg je de benodigde dependencies toe:
+1. Zoek naar **"Spring Web"** en selecteer deze
+   - Dit voegt `spring-boot-starter-web` toe aan je project
+   - Bevat alles wat je nodig hebt voor REST controllers en JSON handling
+2. Klik op "Create"
+
+### Project structuur
+Na het aanmaken krijg je automatisch een projectstructuur met:
+- `src/main/java/` - Hier komen je Java-klassen
+- `src/main/resources/` - Hier komen configuratiebestanden
+- `pom.xml` (Maven) of `build.gradle` (Gradle) - Build configuratie
+- Een hoofdklasse met `@SpringBootApplication` annotatie
+
+## 7. Opstarten van de applicatie
 
 ### Binnen IntelliJ IDEA
 Open de Main-klasse (met `@SpringBootApplication`) en klik op de groene Run-knop. IntelliJ bouwt en start de app.
@@ -196,7 +224,7 @@ Open de Main-klasse (met `@SpringBootApplication`) en klik op de groene Run-knop
 ### Server draait
 Zodra in de console "Started Application in … seconds" verschijnt, luistert de embedded server op poort 8080.
 
-## 7. Aanroepen van de API-endpoints via Postman
+## 8. Aanroepen van de API-endpoints via Postman
 
 Gebruik basis-URL `http://localhost:8080`.
 
