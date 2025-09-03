@@ -49,9 +49,7 @@ This repository contains 40 Java programming exercises designed to help students
 - **simple_car**: Object state management
 - **vowel_counter**: String processing
 - **temperature_spread**: Multiple return values
-- **space_probe_signal_time**: Mathematical operations
 - **fantasy_potion_mix**: Array manipulation
-- **even_odd_game**: Conditional logic
 - **amusement_park_ticket**: Input validation
 - **bus_seats**: Conditional processing
 - **cinema_row_rearrange**: Array manipulation
