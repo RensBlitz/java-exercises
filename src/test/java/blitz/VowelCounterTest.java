@@ -11,6 +11,6 @@ class VowelCounterTest {
     void count_basic() {
         Map<Character,Integer> m = VowelCounter.count("Hello World");
         assertEquals(1, m.get('e'));
-        assertEquals(1, m.get('o'));
+        assertEquals(2, m.get('o'));
     }
 } 
